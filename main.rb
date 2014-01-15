@@ -32,9 +32,8 @@ end
 
 def zip_codes(text)
 	text.scan(/\b\d{5}\b/)
-
 end
 
 def hex_colors(text)
-	text.scan(/^#\w{6}/)
+	text.scan(/\h{6}/)
 end
